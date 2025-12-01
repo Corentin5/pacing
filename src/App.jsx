@@ -40,10 +40,10 @@ export default function TrackPacingCalculator() {
       { name: '100m', distance: 0.1 },
       { name: '200m', distance: 0.2 },
       { name: '400m', distance: 0.4 },
+      { name: '600m', distance: 0.6 },
       { name: '800m', distance: 0.8 },
       { name: '1000m', distance: 1.0 },
       { name: '1500m', distance: 1.5 },
-      { name: '3000m', distance: 3.0 },
       { name: '5000m', distance: 5.0 },
       { name: '10000m', distance: 10.0 }
     ];
