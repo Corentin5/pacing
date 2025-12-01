@@ -69,8 +69,8 @@ export default function TrackPacingCalculator() {
     : { minutes: parseInt(paceMinutes), seconds: parseInt(paceSeconds) };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-4 md:p-8">
-      <div className="max-w-4xl mx-auto">
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-4 md:p-8 flex flex-col">
+      <div className="max-w-4xl mx-auto flex-1">
         <div className="bg-white rounded-2xl shadow-xl p-6 md:p-8 mb-6">
           <div className="flex items-center gap-3 mb-6">
             <Calculator className="w-8 h-8 text-indigo-600" />
@@ -193,6 +193,7 @@ export default function TrackPacingCalculator() {
           </div>
         </div>
       </div>
+      <p className="text-center text-sm text-gray-600 mt-8">Dev by <a href="https://www.corentinlaigneau.fr" target="_blank" rel="noopener noreferrer" className="text-indigo-600 hover:text-indigo-700">Corentin Laigneau</a></p>
     </div>
   );
 }
